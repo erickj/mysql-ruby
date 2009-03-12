@@ -6,6 +6,8 @@ s = Gem::Specification.new do |s|
   s.author="Masahiro Tomita"
   s.email="tommy@tmtm.org"
   s.homepage="http://www.tmtm.org/en/mysql/ruby/"
+  s.rubyforge_project="mysql-ruby"
+  s.has_rdoc=false
 
   s.files=[
     "COPYING",
@@ -13,7 +15,7 @@ s = Gem::Specification.new do |s|
     "README.html",
     "README_ja.html",
     "extconf.rb",
-    "mysql.c.in",
+    "mysql.c",
     "test.rb",
     "tommy.css",
     "mysql-ruby.gemspec"
